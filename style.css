@@ -1,0 +1,40 @@
+:root {
+  --primary-color: #eee;
+}
+
+body {
+  background: var(--primary-color);
+}
+
+#score-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#game-container {
+  text-align: center;
+}
+
+#result {
+  text-align: center;
+}
+
+.players {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+p, span {
+  font-size: 2rem;
+}
+
+.fa {
+  font-size: 15rem;
+  padding: 2rem;
+  cursor: pointer;
+}
+
+.fa:hover {
+  transform: scale(1.2);
+  transition: all 1s ease;
+}
